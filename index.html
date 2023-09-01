@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/2eb4565468.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="programming.png" class="logo" alt="logo">
+        <ul id="slidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Experience</li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        
+      </nav>
+      <div class="header-text">
+        <p>Web Devloper</p>
+        <h1>Hi, I'm <span>Prateeksha</span> <br>Pandey</h1>
+      </div>
+    </div>
+  </div>
+
+  <!-- about -->
+
+  <div id="about">
+<div class="container">
+  <div class="row">
+    <div class="about-col-1">
+     <img src="my_image.jpeg">
+    </div>
+    <div class="about-col-2"> 
+       <h1 class="sub-title">About Me</h1>
+       <p>
+        I am a driven and ambitious pre-final year student at college with a passion for web development.I thrive in dynamic and challenging environments, constantly seeking to push the boundaries of what I can achieve. I have a keen eye for detail and a strong problem-solving mindset, enabling me to create visually appealing and user-friendly websites.
+        I am currently seeking opportunities to apply my skills and expand my experience in web development.</p>
+
+       <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('Sills')">Soft Skills</p>
+        <p class="tab-links" onclick="opentab('Tskills')">Technical Skills</p>
+        <p class="tab-links" onclick="opentab('Education')">Education</p>        
+       </div>
+       <div class="tab-contents active-tab " id="Sills" >
+        <ul>
+          <li><span>Presentation Skills</span><br></li>
+          <li><span>Time Management</span><br></li>
+          <li><span>Critical Thinking</span><br></li>
+        </ul>
+       </div>
+       
+       <div class="tab-contents " id="Tskills">
+        <ul>
+          <li><span>Programming Skills</span><br>C, CPP(with DSA)</li>
+          <li><span>Web Devlopment</span><br>HTML, CSS, Javascript, REACT JS</li>
+          <li><span>Graphic Designing</span><br>Adobe Photoshop, Adobe Illustrator, Canva</li>
+        </ul>
+       </div>
+        
+       <div class="tab-contents " id="Education">
+        <ul>
+          <li><span>8.41CGPA</span><br>Dr. BR Ambedkar National Institute of Technology Jalandhar</li>
+          <li><span>CLASS 10 : 98.4%</span><br>Rani Laxmi Bai School</li>
+          <li><span>CLASS 12 : 92.4%</span><br>Allahabad Public School</li>
+        </ul>
+       </div>
+    </div>
+  </div>
+</div>
+  </div>
+  
+       <!-- services -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Experience</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Devloper intern at Bharat Intern</h2>
+          <p>Developed web solutions at Bharat Intern, enhancing user experiences and collaborating on dynamic projects.</p>
+          <a href="https://www.linkedin.com/posts/prateeksha-pandey-75898223a_bharatintern-activity-7090693731971985408-0H6G?utm_source=share&utm_medium=member_desktop">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Web Devloper intern at Codsoft</h2>
+          <p>Creating responsive websites and optimizing user interfaces for enhanced user experiences.</p>
+          <a href="https://www.linkedin.com/posts/codsoft_codsoft-codsoftinternship-congratulations-activity-7093207797860876288-6fQd?utm_source=share&utm_medium=member_desktop">(Intern of the Month)</a><br>
+          <a href="https://www.linkedin.com/posts/prateeksha-pandey-75898223a_codsoft-activity-7088466569286082560-Gl5Z?utm_source=share&utm_medium=member_desktop">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-codepen"></i>
+          <h2>Shooting Stars Hackathon</h2>
+          <p>Participated in the Shooting Stars Hackathon, collaborating, coding, and problem-solving intensively during the 24-hour event, showcasing teamwork and innovation.</p>
+          <a href="https://github.com/vilol-04/healthBridge.git">Learn more</a>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <!-- portfolio -->
+
+   <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="callets.png">
+          <div class="layer">
+            <h3>Callet's </h3>
+            <p>Callet's is a cutting-edge video conferencing platform, facilitating seamless connections through high-quality audio and video, enabling real-time discussions, content sharing, and authentic interactions.</p>
+            <a href="https://github.com/prateeksha17/callets.github.io.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+     
+
+      
+        <div class="work">
+          <img src="HEalth Bridge.png">
+          <div class="layer">
+            <h3>Health Bridge</h3>
+            <p>Empowering college students with compassionate support. Raise funds for medical needs, access free top-tier psychologists, and join diverse social groups for holistic well-being.</p>
+            <a href="https://github.com/vilol-04/healthBridge.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      
+
+     
+        <div class="work">
+          <img src="project.png">
+          <div class="layer">
+            <h3>Project Management System</h3>
+            <p>
+              Your team's digital HQ. Assign tasks, track progress, and foster collaboration. Team members can log in, sign up, and share comments effortlessly.
+            </p>
+            <a href="https://github.com/prateeksha17/Dojo.github.io.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- contact -->
+      <br><br>
+      <div id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>prateeksha8177@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>6387859200</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/argh.urgh/"> <i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/prateeksha-pandey-75898223a/"> <i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/prateeksha17"> <i class="fa-brands fa-github"></i></a>
+                <a href="https://www.freelancer.com/hireme/prateekshapande5"> <i class="fa-solid fa-dove"></i></a>
+
+              </div>
+              <a href="Resume.pdf" download class="btn " >Download CV</a>
+            </div>
+
+            <div class="contact-right">
+              <form action="https://formspree.io/f/xdovrwqe" method="post">
+                <input id="text" type="text" name="Name" placeholder="Your Name" required>
+                <input id="email" type="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </div>
+   <!-- <script>
+    var sidemeu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemeu.style.right = "0";
+
+}
+function closemenu(){
+    sidemeu.style.right =  "-200px";
+}
+   </script> -->
+   <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
